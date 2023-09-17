@@ -12,7 +12,7 @@
 	<artifactId>springboot_Kafka</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot_Kafka</name>
-	<description>Principal finance Project utilizing Spring Boot, Kafka, MySQL, React</description>
+	<description>Kafka Project utilizing Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

@@ -8,8 +8,15 @@ import org.springframework.kafka.config.TopicBuilder;
 @Configuration
 public class KafkaTopicConfig {
     @Bean
-    public NewTopic insuranceTopic(){
-        return TopicBuilder.name("insuranceTopic")
+    public NewTopic myKafkaTopic(){
+        return TopicBuilder.name("myKafkaTopic")
+                .partitions(3)
+                .build();
+    }
+
+    @Bean
+    public NewTopic myKafkaJsonTopic(){
+        return TopicBuilder.name("myKafkaJsonTopic")
                 .partitions(3)
                 .build();
     }
